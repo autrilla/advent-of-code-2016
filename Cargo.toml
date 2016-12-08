@@ -18,6 +18,11 @@ path = "src/2.rs"
 name = "3"
 path = "src/3.rs"
 
+[[bin]]
+
+name = "4"
+path = "src/4.rs"
+
 [dependencies]
 
 lazy_static = "0.2.2"
