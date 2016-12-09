@@ -33,9 +33,15 @@ path = "src/5.rs"
 name = "6"
 path = "src/6.rs"
 
+[[bin]]
+
+name = "7"
+path = "src/7.rs"
+
 [dependencies]
 
 lazy_static = "0.2.2"
 itertools = "0.4.4"
 rust-crypto = "0.2.36"
 rustc-serialize = "0.3.22"
+regex = "0.1"
