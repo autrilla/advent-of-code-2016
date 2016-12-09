@@ -38,10 +38,15 @@ path = "src/6.rs"
 name = "7"
 path = "src/7.rs"
 
+[[bin]]
+
+name = "8"
+path = "src/8.rs"
+
 [dependencies]
 
 lazy_static = "0.2.2"
 itertools = "0.4.4"
 rust-crypto = "0.2.36"
 rustc-serialize = "0.3.22"
-regex = "0.1"
+ndarray = "0.7.1"
